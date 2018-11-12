@@ -6,7 +6,8 @@ Os he puesto en ramas distintas la demo sin hacer y la demo terminada.
 El diseño está sacado del theme GRIDUS. Cogí secciones de varias de sus vistas para ajustar las partes que me interesaba explicar.
 Enlace al theme: https://neuethemes.net/preview/gridus/?page=layouts/samuel/index.html
 
-Si tenéis cualquier duda, aclaración o queréis mandarme cariño, estoy a vuestra disposición en mi cuenta de Twitter: @diana_aceves_
+Si tenéis cualquier duda, aclaración o queréis mandarme cariño, estoy a vuestra disposición en mi cuenta de Twitter:
+[@diana_aceves_](https://twitter.com/diana_aceves_)
 
 
 ### Nota:
