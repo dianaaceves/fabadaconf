@@ -1,0 +1,51 @@
+/*-------------------------------------------------*\
+    $SPECIAL FUNCTIONS (Before VARS to use them)
+\*-------------------------------------------------*/
+
+$base-fontsize : 16;
+// PIXEL TO REM: height: rem(50) -> 3.125rem;
+@function rem($px, $context:$base-fontsize) {
+  @return ($px / $context) * 1rem;
+}
+//Idem with EMs for media queries
+@function em($px, $context:$base-fontsize) {
+  @return ($px / $context) * 1em;
+}
+
+/*--------------*\
+    VARIABLES
+\*--------------*/
+/* TYPOGRAPHY */
+$font-headings: 'Exo 2', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+/* COLORS */
+$green: #1abc9c;
+$blue:  #3498db;
+$cyan:  #9b59b6;
+$orange:#e67e22;
+$red:   #e74c3c;
+$yellow:#d9a81d;
+
+//Gray scale
+$darken-gray: #3b3b3b;
+$dark-gray:   #3f3f3f;
+$medium-gray: #4f4f4f;
+$light-gray:  #8f8f8f;
+$lighten-gray:lighten($light-gray,35%);
+
+//Fonts
+$text-color: rgb(63, 63, 63);
+
+/*--------------*\
+    MIXINS
+\*--------------*/
+@mixin flex-c-0{
+  display: flex;
+  align-items: center;
+}
+@mixin flex-c-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
