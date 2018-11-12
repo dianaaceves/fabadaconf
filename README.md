@@ -6,7 +6,7 @@ El diseño está sacado del theme GRIDUS. Cogí secciones de varias de sus vista
 Enlace al theme: https://neuethemes.net/preview/gridus/?page=layouts/samuel/index.html
 
 
-###Nota:
+### Nota:
 Los SVG utilizados mediante SVG <use> pueden no mostrarse en Chrome si trabajáis en local. Es un problema de cross-domain que se soluciona en cuanto arrancas la web a través de un servidor.
 En Firefox no he detectado este comportamiento y funciona bien en local, si no queréis tirar de servidor.
 
