@@ -12,7 +12,7 @@ Si tenéis cualquier duda, aclaración o queréis mandarme cariño, estoy a vues
 
 
 ### Nota:
-Los SVG utilizados mediante "SVG <use>" pueden no mostrarse en Chrome si trabajáis en local. Es un problema de cross-domain que se soluciona en cuanto arrancas la web a través de un servidor.
+Los SVG utilizados mediante "SVG use" pueden no mostrarse en Chrome si trabajáis en local. Es un problema de cross-domain que se soluciona en cuanto arrancas la web a través de un servidor.
 En Firefox no he detectado este comportamiento y funciona bien en local, si no queréis tirar de servidor.
 
 Más info aquí: https://css-tricks.com/svg-use-external-source/#comment-1581612
