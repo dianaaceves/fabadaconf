@@ -1,0 +1,200 @@
+/* Fabadaconf 2018 by @diana_aceves_ */
+body{
+	font-family: $font-text;
+    line-height: 1.6;
+    color: white;
+    background-color: lighten($lighten-gray, 5%);
+}
+.wrapper--main{
+	max-width: rem(1440);
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+.grid--main {
+}
+
+/* HEADER */
+.header--main {
+	/* .header--main__image */
+	&__image {
+		img{
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+	/* .header--main__name */
+	&__name {
+		font-family: $font-headings;
+		font-size: 2em;
+		background-color: $medium-gray;
+	}
+	/* .header--main__job */
+	&__job {
+		background-color: $dark-gray;
+		font-size: 1.3em;
+	}
+	&__name,
+	&__job{
+		padding-left: 2rem;
+	}
+	/* .header--main__behance */
+	&__behance {
+		background-color: $darken-gray;
+		svg{
+			height: 1.5rem;
+			width: 1.5rem;
+		}
+	}
+}
+
+.nav--header {
+	font-size: .8em;
+	text-transform: uppercase;
+	/* .nav--header__item */
+	&__item {
+		font-weight: bold;
+		&:nth-child(1){
+			background-color: $green;
+		}
+		&:nth-child(2){
+			background-color: $blue;
+		}
+		&:nth-child(3){
+			background-color: $cyan;
+		}
+		&:nth-child(4){
+			background-color: $orange;
+		}
+		&:nth-child(5){
+			background-color: $red;
+		}
+		&:nth-child(6){
+			background-color: $yellow;
+		}
+	}
+	&__link{
+		padding: 1rem;
+	}
+	svg{
+		opacity: .65;
+		height: 1.5rem;
+		width: 1.5rem;
+	}
+}
+
+/* MAIN CONTENT */
+main{
+}
+
+.section {
+	/* .section--intro */
+	&--intro {
+		color: $text-color;
+	}
+	/* .section--works-summary */
+	&--works-summary {
+		background-color: $blue;
+		padding: 3.5rem 0;
+	}
+}
+
+.article {
+	padding: 2em;
+	/* .article--whoiam */
+	&--whoiam {
+	}
+	/* .article--personal-info */
+	&--personal-info {
+		background-color: $lighten-gray;
+	}
+	/* .article__title */
+	&__title {
+		font-family: $font-headings;
+		font-size: 2em;
+		font-weight: bold;
+		line-height: 1;
+		margin-bottom: 1rem;
+	}
+	/* .article__text */
+	&__text{
+		font-size: .85em;
+	}
+}
+
+.personal-data-list{
+	font-size: .85em;
+	dd{
+		margin-bottom: 1em;
+	}
+	dt{
+		font-size: 0.9em;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-top: 0.1em; /*corrijo diferencia de line-height*/
+	}
+}
+
+.work {
+	/* .work__icon */
+	&__icon {
+		height: 1.5em;
+		width: 1.5em;
+	}
+	/* .work__number */
+	&__number {
+		font-size: 2em;
+	}
+	/* .work__name */
+	&__name {
+		font-size: .7em;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		font-weight: bold;
+	}
+}
+
+/* FOOTER */
+.footer--main {
+	padding: 2.5rem;
+	background-color: $medium-gray;
+}
+
+.nav--footer {
+	font-size: .85em;
+	font-weight: bold;
+	/* .nav--footer__item */
+	&__item:nth-child(2),
+	&__item:nth-child(3) {
+	}
+}
+
+.social {
+	/* .social__heading */
+	&__heading {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: .8em;
+		margin-bottom: 1em;
+	}
+	/* .social__menu */
+	&__menu {
+	}
+	/* .social__item */
+	&__item {
+		background-color: $light-gray;
+		height: 2rem;
+		width: 2rem;
+		border-radius: 50%;
+		&:not(:last-child){
+			margin-right: .5em;
+		}
+	}
+	/* .social__icon */
+	&__icon {
+		height: 1rem;
+		width: 1rem;
+		display: block;
+	}
+}
