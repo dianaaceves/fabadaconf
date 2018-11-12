@@ -1,9 +1,9 @@
 /* Fabadaconf 2018 by @diana_aceves_ */
 body{
 	font-family: $font-text;
-    line-height: 1.6;
-    color: white;
-    background-color: lighten($lighten-gray, 5%);
+	line-height: 1.6;
+	color: white;
+	background-color: lighten($lighten-gray, 5%);
 }
 .wrapper--main{
 	max-width: rem(1440);
