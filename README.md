@@ -1,7 +1,7 @@
 # Fabadaconf 2018 - "Flex y Grid: The new BFF"
 Demo de la charla que di en la Fabadaconf 2018 (https://fabadaconf.com/)
 
-Os he puesto en ramas distintas la [demo sin hacer](../demo-init/README.md) y la [demo terminada](../demo-done/README.md).
+Os he puesto en ramas distintas la [demo sin hacer](https://github.com/dianaaceves/fabadaconf/tree/demo-init) y la [demo terminada](https://github.com/dianaaceves/fabadaconf/tree/demo-done).
 
 El diseño está sacado del theme GRIDUS. Cogí secciones de varias de sus vistas para ajustar las partes que me interesaba explicar.
 Enlace al theme: https://neuethemes.net/preview/gridus/?page=layouts/samuel/index.html
